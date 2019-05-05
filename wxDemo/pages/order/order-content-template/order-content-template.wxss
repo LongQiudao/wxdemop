@@ -1,0 +1,85 @@
+.goods-container{
+  width: 970rpx;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.goods-top{
+  display: flex;
+  flex-direction: row;
+}
+.goods-post{
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  background-color: orange;
+  text-align: center
+}
+.goods-post-text{
+  font-size: 30rpx;
+  color: white;
+}
+.goods-more-img{
+  margin-top: 44rpx;
+  width: 24rpx;
+  height: 24rpx;
+  margin-left: 10rpx;
+  }
+.goods-youhui{
+  font-size: 28rpx;
+  margin-top: 40rpx;
+  margin-left: 10rpx;
+  color: #999;
+}
+.goods-more{
+  margin-top: 40rpx;
+  font-size: 24rpx;
+  margin-left: 90rpx;
+  color: blue;
+}
+.goods-end{
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+}
+.goods-end-img{
+  margin-left: 20rpx;
+  width: 150rpx;
+  height: 100rpx;
+}
+.manager-check{
+  margin-top: 20rpx;
+}
+.goods-end-content{
+  margin-left: 10rpx;
+  display: flex;
+  flex-direction: column;
+}
+.goods-end-content-text{
+  font-size: 32rpx;
+}
+.goods-end-content-catgory{
+  margin-top: 10rpx;
+  font-size: 28rpx;
+  color: #999;
+}
+.goods-end-content-price{
+  margin-top: 10rpx;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30rpx;
+}
+.goods-end-content-price-money{
+  font-size: 32rpx;
+  color: red;
+}
+.goods-end-content-price-real{
+  margin-left: 30rpx;
+  font-size: 32rpx;
+  color:#999;
+  text-decoration:line-through;
+}
+.goods-end-content-price-num{
+  margin-left: 140rpx;
+  font-size: 32rpx;
+  color:#999;
+}

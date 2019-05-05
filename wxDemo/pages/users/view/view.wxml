@@ -1,0 +1,6 @@
+<import src="../view-template/view-template"/>
+<view class='contianer'>
+  <template is="viewTemplate"/>
+  <template is="viewTemplate"/>
+  <template is="viewTemplate"/>
+</view>

@@ -1,0 +1,34 @@
+<import src="order-title-template/order-title-template"/>
+<import src="order-content-template/order-content-template"/>
+<import src="../index/goods-left-template/goods-left-template"/>
+<view class='contianer'>
+  <template is="orderTitle"/>
+ <view  wx:for="{{fakeDatas}}" wx:key="{{index}}" class="touch-item {{item.isTouchMove ? 'touch-move-active' : ''}}" data-index="{{index}}" bindtouchstart="touchstart" bindtouchmove="touchmove">
+  <view class="content">
+    <template is="contentTemplate" data="{{...item}}"/>
+  </view>
+  <view class="dele" style='background-color:#c95b54;' bindtap="del">删除</view>
+</view>
+  <text class='lishi-title'>浏览历史</text>
+  <view class="lishi-contianer">
+    <view class='lishi-content'>
+      <block wx:for="{{leftImg}}">
+          <template is="leftTemplate" data="{{...item}}"/> 
+      </block>
+    </view>
+    <view class='lishi-content'>
+      <block wx:for="{{rightImg}}">
+          <template is="leftTemplate" data="{{...item}}"/> 
+      </block>
+    </view>
+  </view>
+  <view class='jiesuan-contianer'>
+    <radio class='jiesuan-contianer-check' catchtap='onClick' checked='{{allchecked}}'></radio>
+    <text class='jiesuan-contianer-quanxuan'>全选</text>
+    <text class='jiesuan-contianer-heji'>合计：</text>
+    <text class='jiesuan-contianer-zongjia'>￥0</text>
+    <view class='jiesuan-contianer-jiesuan' catchtap='onOrder'>
+    <text class='jiesuan-contianer-jiesuan-text'>去结算</text>
+  </view>
+    </view>
+</view>

@@ -1,0 +1,34 @@
+.goods-right-contianer{
+  border-radius: 0.8rem;
+  margin-right: 20rpx;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 350rpx;
+  height: 600rpx;
+}
+.goods-right-img{
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 10rpx;
+  width: 315rpx;
+  height: 500rpx;
+}
+.goods-right-content{
+  font-size: 32rpx;
+  color: #999;
+  margin-left: 20rpx;
+}
+.goods-right-price{
+  margin-left: 20rpx;
+  font-size: 50rpx;
+  color: red;
+  font-weight: 600;
+}
+.goods-right-same{
+  font-size:24rpx;
+  color: blue;
+  margin-left: 260rpx;
+}

@@ -1,0 +1,67 @@
+<view class='contianer'>
+  <view class='top-contianer' catchtap='onAddress'>
+    <image class='top-address-img' src='/images/tubiao/address.png'></image>
+    <view class='top-content'>
+      <view class='top-content-top'>
+        <text class='top-content-top-user'>收件人：张逸</text>
+        <text class='top-content-top-phone'>4008-123-123</text>
+      </view>
+      <text class='top-content-address'>地址：下水道的小井盖</text>
+    </view>
+    <image class='top-icon' src='/images/icon/arrow-right.png'></image>
+  </view>
+
+  <view class='center-contianer'>
+    <view class='center-top'>
+      <image src="/images/post/1.jpg" class='center-top-img' mode='aspectFit'></image>
+      <view class='center-goods'>
+        <text class='goods-name'>商品内容++++++</text>
+        <text class='goods-price'>￥12345.00</text>
+      </view>
+      <view class='goods-num'>
+        <text class='num'>x3</text>
+      </view>
+    </view>
+  </view>
+
+  <view class='center-contianer'>
+    <view class='center-top'>
+      <image src="/images/post/1.jpg" class='center-top-img' mode='aspectFit'></image>
+      <view class='center-goods'>
+        <text class='goods-name'>商品内容++++++</text>
+        <text class='goods-price'>￥12345.00</text>
+      </view>
+      <view class='goods-num'>
+        <text class='num'>x3</text>
+      </view>
+    </view>
+  </view>
+
+
+
+  <view class='freight'>
+    <text class='freight-left'>运费</text>
+    <text class='freight-right'>包邮</text>
+  </view>
+
+  <view class='address-name'>
+    <text class='address-name-text'>备注：</text>
+    <input placeholder="请填写备注信息" placeholder-class="placeholder"></input>
+  </view>
+
+  <view class='total'>
+    <text class='total-title'>合计：</text>
+    <text class='total-price'>￥24690.00</text>
+  </view>
+
+
+  <view class='submit'>
+    <view class='submit-left'>
+      <text class='submit-left-text1'>应付金额：</text>
+      <text class='submit-left-text2'>￥24690.00</text>
+    </view>
+    <view class='submit-right' catchtap='onSubmit'>
+      <text class='submit-right-text'>提交订单</text>
+    </view>
+  </view>
+</view>

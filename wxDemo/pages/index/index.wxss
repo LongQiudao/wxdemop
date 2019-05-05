@@ -1,0 +1,119 @@
+@import "goods-top-template/goods-top-template";
+@import "goods-left-template/goods-left-template";
+@import "goods-right-template/goods-right-template";
+page{
+  background-color: gainsboro;
+}
+.contianer{
+  display: flex;
+  flex-direction: column;
+}
+.sreach{
+    margin-top: 20rpx;
+    background-color: #f2f2f2;
+    height: 80rpx;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0.8rem;
+}
+.search-img{
+    margin: auto 0 auto 200rpx;
+}
+.placeholder{
+    font-size: 14px;
+    color: #d1d1d1d1;
+    margin-left: 10rpx;
+   
+}
+.sreach input{
+    height: 100%;
+    width: 600rpx;
+    margin-left: 40rpx;
+    font-size: 28rpx;
+}
+.search-panel{
+    position: absolute;
+    top: 80rpx;
+}
+.new-goods{
+  border-radius: 0.8rem;
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 400rpx;
+}
+.goods-text{
+  margin-top: 60rpx;
+  height: 300rpx;
+  width: 300rpx;
+}
+.goods-text-title{
+  margin-bottom: 10rpx;
+  margin-left: 20rpx;
+  font-size: 32rpx;
+}
+.goods-text-jifeng{
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  background-color: black;
+  width: 130rpx
+}
+.goods-text-content{
+  margin-left: 15rpx;
+  color: white;
+  font-size: 26rpx;
+}
+.goods-user{
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+}
+.goods-user-img{
+  width: 48rpx;
+  height: 48rpx;
+}
+.goods-user-jifeng{
+  margin-top: 8rpx;
+  font-size: 24rpx;
+}
+.goods-contianer{
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+}
+.title-contianer{
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+}
+.title-contianer-title{
+  margin-top: 15rpx;
+  margin-left: 10rpx;
+  font-weight: 800;
+  font-size: 48rpx;
+}
+.title-contianer-title2{
+  margin-top: 32rpx;
+  margin-left: 20rpx;
+  font-size: 30rpx;
+}
+.goods{
+  display: flex;
+  flex-direction: row;
+}
+.goods-left{
+  display: flex;
+  flex-direction: column;
+}
+.goods-right{
+  display: flex;
+  flex-direction: column;
+}
+.goods-user-clum{
+  display: flex;
+  flex-direction: row;
+}

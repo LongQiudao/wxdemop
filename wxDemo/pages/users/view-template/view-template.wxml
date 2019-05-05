@@ -1,0 +1,18 @@
+  <template name="viewTemplate">
+  <view class='goods-container' >
+    <view class='goods-end'>
+      <image class='goods-end-img' mode="aspectFill" src='/images/post/picture_002.jpg'></image>
+    <view class='goods-end-content' catchtap='onDetail' data-id="{{id}}">
+      <text class='goods-end-content-text'>阳澄湖大闸蟹，炒鸡大，炒鸡肥</text>
+      <text class='goods-end-content-catgory'>型号：巨型蟹</text>
+      <view class='goods-end-content-price'>
+        <text class='goods-end-content-price-money'>￥998.00</text>
+        <view class="divLine">
+        </view>
+        <text class='goods-end-content-price-real'>￥10086</text>
+        <text class='goods-end-content-price-num'>x8</text>
+      </view>
+    </view>
+  </view>
+  </view>
+  </template>

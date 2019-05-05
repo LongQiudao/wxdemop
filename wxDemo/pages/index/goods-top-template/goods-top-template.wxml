@@ -1,0 +1,6 @@
+<template name="topTemplate">
+  <view class='goods-image'>
+    <image class='gooods-image-img' src='/images/tubiao/kaquan.png'></image>
+    <text class='goods-content'>优惠可省1000元</text>
+  </view>
+</template>

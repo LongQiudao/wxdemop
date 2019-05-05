@@ -1,0 +1,93 @@
+/* pages/index/index.wxss */
+@import "../view-template/view-template";
+
+page{
+  height: 100%;
+}
+.swiper-tab {
+  width: 100%;
+  text-align: center;
+  line-height: 80rpx;
+  border-bottom: 1px solid #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tab-item {
+  flex: 1;
+  font-size: 30rpx;
+  display: inline-block;
+  color: #777;
+}
+
+.on {
+  color: red;
+  border-bottom: 5rpx solid red;
+}
+.scroll-view{
+  height: 100%;
+}
+.swiper {
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+.order-contianer-heji{
+  margin-top: 10rpx;
+  display: flex;
+  flex-direction: row;
+}
+.order-contianer-heji-num{
+  margin-top: 20rpx;
+  font-size: 40rpx;
+  margin-left: 20rpx;
+  color: #999;
+}
+.order-contianer-heji-price{
+  margin-top: 20rpx;
+  font-size: 40rpx;
+  margin-left: 200rpx;
+}
+.order-container-anniu{
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20rpx;
+}
+.order-container-anniu-text{
+  margin-left: 20rpx;
+  font-size: 30rpx;
+  color: red;
+  font-weight: 600;
+}
+.order-container-anniu1{
+  margin-left: 70rpx;
+  width: 230rpx;
+  background-color: gainsboro;
+  text-align: center;
+  border-radius: 0.8rem;
+  }
+  .order-container-anniu2{
+  margin-left: 70rpx;
+  width: 230rpx;
+  background-color: red;
+  text-align: center;
+  border-radius: 0.8rem;
+  }
+  .order-container-anniu1-text{
+    font-size: 36rpx;
+  }
+  .order-contianer{
+     background-color: white;
+    border-radius: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20rpx;
+  }
+.order-scroll{
+  height: 100%;
+}

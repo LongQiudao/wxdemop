@@ -1,0 +1,126 @@
+<import src="../goods-left-template/goods-left-template"/>
+<view class='contianer'>
+  <view class='logo-contianer'>
+    <text class='logo--text'>luma交易平台</text>
+    <image class='logo-user' src='/images/avatar/1.png'></image>
+    <text class='logo-kaquan'>卡券</text>
+    <image class='logo-shouchang' src="/images/tubiao/shouchang.png"></image>
+    <image class='logo-gouwuche' src='/images/tab/cccc-non.jpg'></image>
+  </view>
+  <swiper indicator-dots="true" indicator-color="#C0FF3E" autoplay="true" interval="2000">
+      <swiper-item> <image mode="aspectFill" lazy-load='true' src='/images/post/1.jpg' ></image></swiper-item>
+      <swiper-item> <image mode="aspectFill" lazy-load='true' src='/images/post/2.jpg' ></image></swiper-item>
+      <swiper-item> <image mode="aspectFill" lazy-load='true' src='/images/post/3.jpg' ></image></swiper-item>
+  </swiper>
+  <text class='goods-price'>￥998</text>
+  <view class='goods-content'>
+    <view class='goods-content-top'>
+      <text class='goods-content-top-text'>此处应为商品简介</text>
+      <image class='goods-content-top-share' src='/images/tubiao/share.png'></image>
+    </view>
+    <view class='msg-contianer'>
+      <view class='msg'>
+      <text class='msg-title'>商品编码：</text>
+      </view>
+      <text class='msg-content'>7848949845489ff</text>
+    </view>
+    <view class='msg-contianer'>
+      <view class='msg'>
+      <text class='msg-title'>上架时间：</text>
+      </view>
+      <text class='msg-content'>2017-04-07</text>
+    </view>
+    <view class='msg-contianer'>
+      <view class='msg'>
+      <text class='msg-title'>年份：</text>
+      </view>
+      <text class='msg-content'>2014</text>
+    </view>
+    <view class='msg-contianer'>
+      <view class='msg'>
+      <text class='msg-title'>成色：</text>
+      </view>
+      <text class='msg-content'>99新</text>
+    </view>
+    <view class='msg-contianer'>
+      <view class='msg'>
+      <text class='msg-title'>颜色：</text>
+      </view>
+      <text class='msg-content'>黑色</text>
+    </view>
+    <view class='msg-contianer'>
+      <view class='msg'>
+      <text class='msg-title'>金属颜色：</text>
+      </view>
+      <text class='msg-content'>银色</text>
+    </view>
+     <view class='msg-contianer'>
+      <view class='msg'>
+      <text class='msg-title'>皮质：</text>
+      </view>
+      <text class='msg-content'>dasdas</text>
+    </view>
+  </view>
+  <view class='tuijian-contianer'>
+  <text class='lishi-title'>店长推荐</text>
+  <view class="lishi-contianer">
+    <view class='lishi-content'>
+      <block wx:for="{{leftImg}}">
+          <template is="leftTemplate" data="{{...item}}"/> 
+      </block>
+    </view>
+    <view class='lishi-content'>
+      <block wx:for="{{leftImg}}">
+          <template is="leftTemplate" data="{{...item}}"/> 
+      </block>
+    </view>
+  </view>
+  </view>
+  <!-- 分割线 -->
+  <view class="divLine"></view>
+  <view class='end-contianer'>
+    <image class='end-shouye' src='/images/tubiao/shouye.png'></image>
+    <image class='end-jindian' src='/images/tubiao/jindian.png'></image>
+    <view class='end-gouwuche' catchtap='onCategory'>
+      <text class='end-gouwuche-text'>加入购物车</text>
+    </view>
+    <view class='end-goumai' catchtap='powerDrawer' data-statu="open">
+      <text class='end-goumai-text'>立即购买</text>
+    </view>
+  </view>
+
+  <view animation="{{animationData}}" class="drawer_attr_box" wx:if="{{showModalStatus}}">
+  <!--drawer content-->
+  <view class="drawer_content">
+    <view class='drawer-top'>
+      <image src='/images/post/1.jpg' class='drawer_content-image' mode='aspectFit'> </image>
+      <text class='drawer_content-image-text'>￥998</text>
+    </view>
+    <view class='category'>
+      <text class='category-title'>型号尺寸：</text>
+      <view class='category-content'>
+        <view class='category-content-list'>
+          <text class='category-content-list-text'>AE-86</text>
+        </view>
+        <view class='category-content-list'>
+          <text class='category-content-list-text'>AK-47</text>
+        </view>
+        <view class='category-content-list'>
+          <text class='category-content-list-text'>M24</text>
+        </view>
+      </view>
+    </view>
+    <text class='category-title'>数量：</text>
+    <view class='num'>
+      <view class='num-left'><text class='num-text'>-</text></view>
+      <view class='num-center'><text class='num-text'>{{num}}</text></view>
+      <view class='num-right'><text class='num-text'>+</text></view>
+      <text class='num-end-text'>库存：500件</text>
+      <view class='num-save' catchtap='powerDrawer' data-statu="save">
+        <text class='num-text2'>保存</text>
+      </view>
+    </view>
+    <image class='xx-img' catchtap='powerDrawer' data-statu="close" src='/images/icon/xx.png'></image>
+  </view>
+</view>
+</view>

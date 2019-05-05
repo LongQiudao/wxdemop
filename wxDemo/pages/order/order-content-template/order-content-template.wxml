@@ -1,0 +1,27 @@
+<template name="contentTemplate">
+  <view class='goods-container' >
+    <view class='goods-top'>
+      <view class='goods-post'>
+        <text class='goods-post-text'>满包邮</text>
+      </view>
+      <text class='goods-youhui'>已享受本店满10086元包邮服务</text>
+      <text class='goods-more' catchtap='onMore'>更多商品</text>
+      <image class='goods-more-img' src='/images/icon/arrow-right.png'></image>
+    </view>
+    <view class='goods-end'>
+      <radio class='manager-check' catchtap='onGoodsClick' data-id='{{id}}' checked='{{goodschecked}}'></radio>
+      <image class='goods-end-img' mode="aspectFill" src='/images/post/picture_002.jpg'></image>
+    <view class='goods-end-content' catchtap='onDetail' data-id="{{id}}">
+      <text class='goods-end-content-text'>阳澄湖大闸蟹，炒鸡大，炒鸡肥</text>
+      <text class='goods-end-content-catgory'>型号：巨型蟹</text>
+      <view class='goods-end-content-price'>
+        <text class='goods-end-content-price-money'>￥998.00</text>
+        <view class="divLine">
+        </view>
+        <text class='goods-end-content-price-real'>￥10086</text>
+        <text class='goods-end-content-price-num'>x8</text>
+      </view>
+    </view>
+  </view>
+  </view>
+</template>

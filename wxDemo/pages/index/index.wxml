@@ -1,0 +1,45 @@
+<import src="goods-top-template/goods-top-template"/>
+<import src="goods-left-template/goods-left-template"/>
+<import src="goods-right-template/goods-right-template"/>
+<view class='contianer'>
+  <view class="sreach">
+          <icon type="search" class="search-img" size="13" color="#405f80"></icon>
+          <input type="text" placeholder="寻找商品、宝贝" placeholder-class="placeholder"
+          bindfocus="onBindfocus"/>
+          <image wx:if="{{searchPanelShow}}" class="cannel-img" src="/images/icon/xx.png" bindtap="onCannelImgTap"/>
+  </view>
+  <view class="new-goods" catchtap='onKaquan'>
+    <view class='goods-text'>
+      <text class="goods-text-title">卡券商场</text>
+      <view class='goods-text-jifeng'>
+        <text class='goods-text-content'>优惠卡券</text>
+      </view>
+      <view class='goods-user'>
+        <image class='goods-user-img' src='/images/avatar/1.png'></image>
+        <text class='goods-user-jifeng'>0张</text>
+      </view >
+    </view>
+    <view class='goods-user-clum'>
+      <template is="topTemplate" data="{{...item}}"/>
+      <template is="topTemplate" data="{{...item}}"/>
+    </view>
+  </view>
+  <view class='goods-contianer'>
+    <view class='title-contianer'>
+      <text class='title-contianer-title'>热卖推荐</text>
+      <text class='title-contianer-title2'>luma会员精品推荐</text>
+    </view>
+    <view class='goods'>
+      <view class='goods-left'>
+      <block wx:for="{{leftImg}}">
+        <template is="leftTemplate" data="{{...item}}"/> 
+      </block>
+      </view>
+      <view class='goods-right'>
+       <block wx:for="{{rightImg}}">
+        <template is="rightTemplate" data="{{...item}}"/> 
+      </block>
+      </view>
+    </view>
+  </view>
+</view>

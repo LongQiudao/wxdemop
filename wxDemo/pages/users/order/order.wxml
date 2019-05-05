@@ -1,0 +1,208 @@
+<import src="../view-template/view-template" />
+<view class='contianer'>
+  <view class="swiper-tab">
+    <view class="tab-item {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">全部</view>
+    <view class="tab-item {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">待付款</view>
+    <view class="tab-item {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">待发货</view>
+    <view class="tab-item {{currentTab==3 ? 'on' : ''}}" data-current="3" bindtap="swichNav">待收货</view>
+    <view class="tab-item {{currentTab==4 ? 'on' : ''}}" data-current="4" bindtap="swichNav">待评价</view>
+  </view>
+  <swiper current="{{currentTab}}" class="swiper" duration="300" style="height:{{winHeight - 30}}px" bindchange="bindChange">
+    <swiper-item>
+      <scroll-view scroll-y="{{true}}" class='order-scroll'>
+        <view class='item-contianer'>
+          <view class='order-contianer'>
+            <template is="viewTemplate" />
+            <view class='order-contianer-heji'>
+              <text class='order-contianer-heji-num'>共8件商品</text>
+              <text class='order-contianer-heji-price'>合计9998.00元</text>
+            </view>
+            <view class='order-container-anniu'>
+              <text class='order-container-anniu-text'>未付款</text>
+              <view class='order-container-anniu1'>
+                <text class='order-container-anniu1-text'>取消订单</text>
+              </view>
+              <view class='order-container-anniu2'>
+                <text class='order-container-anniu1-text'>确认付款</text>
+              </view>
+            </view>
+          </view>
+
+
+          <view class='order-contianer'>
+            <template is="viewTemplate" />
+            <view class='order-contianer-heji'>
+              <text class='order-contianer-heji-num'>共8件商品</text>
+              <text class='order-contianer-heji-price'>合计9998.00元</text>
+            </view>
+            <view class='order-container-anniu'>
+              <text class='order-container-anniu-text'>待发货</text>
+              <view class='order-container-anniu1' catchtap='onNewRefund'>
+                <text class='order-container-anniu1-text'>申请退款</text>
+              </view>
+              <view class='order-container-anniu2'>
+                <text class='order-container-anniu1-text'>提醒发货</text>
+              </view>
+            </view>
+          </view>
+
+
+          <view class='order-contianer'>
+            <template is="viewTemplate" />
+            <view class='order-contianer-heji'>
+              <text class='order-contianer-heji-num'>共8件商品</text>
+              <text class='order-contianer-heji-price'>合计9998.00元</text>
+            </view>
+            <view class='order-container-anniu'>
+              <text class='order-container-anniu-text'>待收货</text>
+              <view class='order-container-anniu1'>
+                <text class='order-container-anniu1-text'>查看物流</text>
+              </view>
+              <view class='order-container-anniu2'>
+                <text class='order-container-anniu1-text'>确认收货</text>
+              </view>
+            </view>
+          </view>
+
+
+          <view class='order-contianer'>
+            <template is="viewTemplate" />
+            <view class='order-contianer-heji'>
+              <text class='order-contianer-heji-num'>共8件商品</text>
+              <text class='order-contianer-heji-price'>合计9998.00元</text>
+            </view>
+            <view class='order-container-anniu'>
+              <text class='order-container-anniu-text'>待评价</text>
+              <view class='order-container-anniu1' catchtap='onSale'>
+                <text class='order-container-anniu1-text'>卖了换钱</text>
+              </view>
+              <view class='order-container-anniu2' catchtap='onNewEvaluate'>
+                <text class='order-container-anniu1-text'>评价</text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </scroll-view>
+    </swiper-item>
+    <swiper-item>
+      <scroll-view scroll-y="{{true}}" class='order-scroll'>
+        <view class='item-contianer'>
+          <view class='order-contianer'>
+            <template is="viewTemplate" />
+            <view class='order-contianer-heji'>
+              <text class='order-contianer-heji-num'>共8件商品</text>
+              <text class='order-contianer-heji-price'>合计9998.00元</text>
+            </view>
+            <view class='order-container-anniu'>
+              <text class='order-container-anniu-text'>未付款</text>
+              <view class='order-container-anniu1'>
+                <text class='order-container-anniu1-text'>取消订单</text>
+              </view>
+              <view class='order-container-anniu2'>
+                <text class='order-container-anniu1-text'>确认付款</text>
+              </view>
+            </view>
+          </view>
+
+
+
+
+
+
+
+
+        </view>
+      </scroll-view>
+    </swiper-item>
+    <swiper-item>
+      <scroll-view scroll-y="{{true}}" class='order-scroll'>
+        <view class='item-contianer'>
+          <view class='order-contianer'>
+            <template is="viewTemplate" />
+            <view class='order-contianer-heji'>
+              <text class='order-contianer-heji-num'>共8件商品</text>
+              <text class='order-contianer-heji-price'>合计9998.00元</text>
+            </view>
+            <view class='order-container-anniu'>
+              <text class='order-container-anniu-text'>待发货</text>
+              <view class='order-container-anniu1' catchtap='onNewRefund'>
+                <text class='order-container-anniu1-text' >申请退款</text>
+              </view>
+              <view class='order-container-anniu2'>
+                <text class='order-container-anniu1-text'>提醒发货</text>
+              </view>
+            </view>
+          </view>
+
+
+
+
+
+
+
+
+        </view>
+      </scroll-view>
+    </swiper-item>
+    <swiper-item>
+      <scroll-view scroll-y="{{true}}" class='order-scroll'>
+        <view class='item-contianer'>
+          <view class='order-contianer'>
+            <template is="viewTemplate" />
+            <view class='order-contianer-heji'>
+              <text class='order-contianer-heji-num'>共8件商品</text>
+              <text class='order-contianer-heji-price'>合计9998.00元</text>
+            </view>
+            <view class='order-container-anniu'>
+              <text class='order-container-anniu-text'>待收货</text>
+              <view class='order-container-anniu1'>
+                <text class='order-container-anniu1-text'>查看物流</text>
+              </view>
+              <view class='order-container-anniu2'>
+                <text class='order-container-anniu1-text'>确认收货</text>
+              </view>
+            </view>
+          </view>
+
+
+
+
+
+
+
+
+        </view>
+      </scroll-view>
+    </swiper-item>
+    <swiper-item>
+      <scroll-view scroll-y="{{true}}" class='order-scroll'>
+        <view class='item-contianer'>
+          <view class='order-contianer'>
+            <template is="viewTemplate" />
+            <view class='order-contianer-heji'>
+              <text class='order-contianer-heji-num'>共8件商品</text>
+              <text class='order-contianer-heji-price'>合计9998.00元</text>
+            </view>
+            <view class='order-container-anniu'>
+              <text class='order-container-anniu-text'>待评价</text>
+              <view class='order-container-anniu1' catchtap='onSale'>
+                <text class='order-container-anniu1-text'>卖了换钱</text>
+              </view>
+              <view class='order-container-anniu2' catchtap='onNewEvaluate'>
+                <text class='order-container-anniu1-text'>评价</text>
+              </view>
+            </view>
+          </view>
+
+
+
+
+
+
+
+
+        </view>
+      </scroll-view>
+    </swiper-item>
+  </swiper>
+</view>

@@ -1,0 +1,86 @@
+<import src="../index/goods-left-template/goods-left-template"/>
+  <view class='contianer'>
+    <view class='top-contianer'>
+      <view class='user'>
+        <image class='user-img' src='/images/avatar/2.png'></image>
+        <text class='user-name'>吐口水的大鲶鱼</text>
+      </view>
+      <view class='message'>
+        <view class='message-detail' catchtap='onView'>
+          <text class='message-detail-text'>浏览足迹</text>
+          <text class='message-detail-num'>3</text>
+        </view>
+          <view class='message-detail' catchtap='onShouCang'>
+          <text class='message-detail-text'>收藏的商品</text>
+          <text class='message-detail-num'>0</text>
+        </view>
+          <view class='message-detail' catchtap='onCategory'>
+          <text class='message-detail-text'>我的购物车</text>
+          <text class='message-detail-num'>0</text>
+        </view>
+      </view>
+    </view>
+    <view catchtap='onEdit'>
+    <image class="edit-image"  src='/images/icon/edit.jpg'></image>
+    </view>
+    <!-- 分割线 -->
+    <view class="divLine"></view>
+    <view class='my-order' catchtap='onMyOrder'>
+      <text class='my-order-text'>我的订单</text>
+      <text class='my-order-more'>查看更多</text>
+      <image class="my-order-image" src='/images/icon/arrow-right.png'></image>
+    </view>
+    <view class="divLine"></view>
+    <view class='menu-contianer'>
+      <view class="menu" catchtap='onNopay'>
+        <image class='menu-img' src='/images/tubiao/fukuan.png'></image>
+        <text class='menu-text'>待付款</text>
+      </view>
+      <view class="menu" catchtap='onDeliver'>
+        <image class='menu-img' src='/images/tubiao/fahuo.png'></image>
+        <text class='menu-text'>待发货</text>
+      </view>
+      <view class="menu" catchtap='onShouhuo'>
+        <image class='menu-img' src='/images/tubiao/shouhuo.png'></image>
+        <text class='menu-text'>待收货</text>
+      </view>
+      <view class="menu" catchtap='onEvaluate'>
+        <image class='menu-img' src='/images/tubiao/pinjia.png'></image>
+        <text class='menu-text'>待评价</text>
+      </view>
+      <view class="menu" catchtap='onRefund'>
+        <image class='menu-img' src='/images/tubiao/tuikuan.png'></image>
+        <text class='menu-text'>已退款</text>
+      </view>
+    </view>
+    <view class='huodong-contianer' >
+      <view class='huodong' catchtap='onKaquan'>
+        <image class="houdong-image" src='/images/tubiao/kaquan.png'></image>
+        <text class='huodong-name'>卡券包</text>
+        <text class='huodong-num'>0张优惠券可用</text>
+      </view>
+      <view class='huodong' catchtap='onMaintenance'>
+        <image class="houdong-image" src='/images/tubiao/fenxiang.png'></image>
+        <text class='huodong-name'>我要保养</text>
+        <text class='huodong-num'>专业护理价格贴心</text>
+      </view>
+      <view class='huodong' catchtap='onSale'>
+        <image class="houdong-image" src='/images/tubiao/shangjia.png'></image>
+        <text class='huodong-name'>我要出售</text>
+        <text class='huodong-num'>价格公道卖到赚到</text>
+      </view>
+    </view>
+    <text class='lishi-title'>猜你喜欢</text>
+  <view class="lishi-contianer">
+    <view class='lishi-content'>
+      <block wx:for="{{leftImg}}">
+          <template is="leftTemplate" data="{{...item}}"/> 
+      </block>
+    </view>
+    <view class='lishi-content'>
+      <block wx:for="{{rightImg}}">
+          <template is="leftTemplate" data="{{...item}}"/> 
+      </block>
+    </view>
+  </view>
+  </view>

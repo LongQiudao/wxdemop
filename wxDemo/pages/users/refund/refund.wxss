@@ -1,0 +1,39 @@
+@import "../view-template/view-template";
+page{
+  background-color: gainsboro;
+}
+.contianer{
+  display: flex;
+  flex-direction: column
+}
+.refund-contianer{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rpx;
+  border-radius: 0.8rem;
+  background-color: white;
+}
+.refund-end{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10rpx;
+  margin-bottom: 20rpx;
+}
+.refund-contianer-text{
+  margin-left: 30rpx;
+  font-size: 30rxp;
+  color: orange;
+}
+.refund-contianer-detail{
+  margin-left: 380rpx;
+  background-color: grey;
+  width: 160rpx;
+  height: 60rpx;
+  border-radius: 0.8rem;
+  text-align: center;
+}
+.refund-contianer-detail-text{
+  font-size: 26rpx;
+  color: white;
+  line-height: 60rpx;
+}

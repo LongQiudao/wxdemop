@@ -1,0 +1,8 @@
+<template name="leftTemplate">
+  <view catchtap='onDetail' class='goods-left-contianer' data-id="{{id}}">
+    <image class='goods-left-img' mode="aspectFill" src='{{image}}'></image>
+    <text class='goods-left-content'>{{content}}</text>
+    <text class='goods-left-price'>￥{{price}}</text>
+    <text class='goods-left-same'>找相似</text>
+  </view>
+</template>

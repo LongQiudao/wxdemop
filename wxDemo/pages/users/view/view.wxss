@@ -1,0 +1,4 @@
+@import "../view-template/view-template";
+page{
+  background-color: azure;
+}

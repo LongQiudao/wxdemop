@@ -1,0 +1,64 @@
+<import src="../../users/view-template/view-template"/>
+<view class='contianer'>
+  <view class='top-contianer'>
+    <view class='top-contianer-item'>
+      <image class='top-contianer-item-img' src='/images/tubiao/xianjin.png'></image>
+      <text class='top-contianer-item-text'>平台代金券</text>
+      <text class='top-contianer-item-text'>x1</text>
+    </view>
+     <view class='top-contianer-item'>
+      <image class='top-contianer-item-img' src='/images/tubiao/dianpu.png'></image>
+      <text class='top-contianer-item-text'>店铺代金券</text>
+      <text class='top-contianer-item-text'>x1</text>
+    </view>
+     <view class='top-contianer-item'>
+      <image class='top-contianer-item-img' src='/images/tubiao/dianpuyouhui.png'></image>
+      <text class='top-contianer-item-text'>店铺优惠券</text>
+      <text class='top-contianer-item-text'>x1</text>
+    </view>
+     <view class='top-contianer-item'>
+      <image class='top-contianer-item-img' src='/images/tubiao/pindan.png'></image>
+      <text class='top-contianer-item-text'>拼单优惠券</text>
+      <text class='top-contianer-item-text'>x1</text>
+    </view>
+  </view>
+  <text class='center-contianer-title'>限时优惠</text>
+  <view class='center-contianer'>
+    <view class='center-contianer-goods'>
+      <template is="viewTemplate"/>
+      <view class='center-contianer-goods-use' catchtap='onDetail' data-id="{{id}}">
+        <text class='center-contianer-goods-use-test'>去使用</text>
+      </view>
+    </view>
+  </view>
+
+
+  <view class='center-contianer'>
+    <view class='center-contianer-goods'>
+      <template is="viewTemplate"/>
+      <view class='center-contianer-goods-use' catchtap='onDetail' data-id="{{id}}">
+        <text class='center-contianer-goods-use-test'>去使用</text>
+      </view>
+    </view>
+  </view>
+
+
+  <view class='center-contianer'>
+    <view class='center-contianer-goods'>
+      <template is="viewTemplate"/>
+      <view class='center-contianer-goods-use' catchtap='onDetail' data-id="{{id}}">
+        <text class='center-contianer-goods-use-test'>去使用</text>
+      </view>
+    </view>
+  </view>
+
+
+  <view class='center-contianer'>
+    <view class='center-contianer-goods'>
+      <template is="viewTemplate"/>
+      <view class='center-contianer-goods-use' catchtap='onDetail' data-id="{{id}}">
+        <text class='center-contianer-goods-use-test'>去使用</text>
+      </view>
+    </view>
+  </view>
+</view>

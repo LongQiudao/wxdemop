@@ -1,0 +1,23 @@
+.star-container{
+    display: flex;
+    flex-direction: row;
+}
+.star{
+    display: flex;
+    flex-direction: row;
+    height: 50rpx;
+    margin-right: 14rpx;
+    margin-top: 16rpx;
+
+}
+.star image{
+    padding-left: 3rpx;
+    width: 50rpx;
+    height: 50rpx;
+}
+.star-core{
+  font-size: 24rpx;
+  margin-top: 25rpx;
+  margin-left: 20rpx;
+  color: #999;
+}

@@ -1,0 +1,52 @@
+@import "../star/star-template.wxss";
+page{
+  background-color: gainsboro;
+}
+.contianer{
+  display: flex;
+  flex-direction: column;
+}
+.star-contianer{
+  margin-bottom: 20rpx;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20rpx;
+}
+.star-text{
+  margin-top: 17rpx;
+  margin-left: 40rpx;
+  font-size: 36rpx;
+}
+.form{
+  margin-top: 40rpx;
+}
+.star-one{
+  margin-top: 20rpx;
+  width: 90%;
+  margin-left: 40rpx;
+  background-color: white;
+  border-radius: 0.8rem;
+}
+.form{
+  height: 800rpx;
+  background-color: white;
+}
+.save{
+  position: fixed;
+  bottom: 0rpx;
+  width: 100%;
+  background-color: red;
+  color: white;
+}
+.placeholder{
+  font-size: 40rpx;
+  color: #d1d1d1d1;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+   
+}
+.contianer textarea{
+  margin-left: 80rpx;
+  font-size: 40rpx;
+  margin-top: 20rpx;
+}

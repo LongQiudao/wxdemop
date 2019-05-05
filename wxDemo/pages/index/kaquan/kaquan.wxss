@@ -1,0 +1,61 @@
+@import "../../users/view-template/view-template";
+page{
+  background-color:gainsboro;
+}
+.contianer{
+  display: flex;
+  flex-direction: column;
+}
+.top-contianer{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10rpx;
+}
+.top-contianer-item{
+  margin-top: 20rpx;
+  margin-left: 40rpx;
+  margin-bottom: 20rpx;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.top-contianer-item-img{
+  margin-left: 10rpx;
+  width: 130rpx;
+  height: 130rpx;
+}
+.top-contianer-item-text{
+  margin-top: 20rpx;
+  font-size: 26rpx;
+  color: #999;
+}
+.center-contianer{
+  margin-left: 40rpx;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 20rpx;
+  border-radius: 0.8rem;
+}
+.center-contianer-title{
+  margin-left: 300rpx;
+  font-size: 40rpx;
+  margin-top: 20rpx;
+  margin-bottom: 10rpx;
+}
+.center-contianer-goods-use-test{
+  font-size: 30rpx;
+  color: white;
+  line-height: 80rpx;
+}
+.center-contianer-goods-use{
+  background-color: red;
+  height: 80rpx;
+  width: 160rpx;
+  border-radius: 0.8rem;
+  text-align: center;
+  margin-bottom: 20rpx;
+  margin-left: 480rpx;
+}

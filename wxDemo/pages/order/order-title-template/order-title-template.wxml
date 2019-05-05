@@ -1,0 +1,5 @@
+<template name='orderTitle'>
+  <view class='manager-container'>
+    <text class='manager-text'>购物清单</text>
+  </view> 
+</template>

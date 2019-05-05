@@ -1,0 +1,74 @@
+page{
+  background-color: azure;
+}
+.contianer{
+  margin-top: 20rpx;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.address-name{
+  display: flex;
+  flex-direction: row;
+  height: 100rpx;
+}
+.address-name-text{
+  font-size: 30rpx;
+  margin-top: 30rpx;
+  margin-left: 20rpx;
+}
+.placeholder{
+    font-size: 14px;
+    color: #d1d1d1d1;
+    margin-left: 10rpx;
+   
+}
+.address-name input{
+    height: 100%;
+    width: 400rpx;
+    margin-left: 40rpx;
+    font-size: 28rpx;
+}
+.end-contianer{
+  display: flex;
+  flex-direction: row;
+  position:fixed; 
+  bottom:0rpx; 
+}
+.end-contianer-left{
+  width: 375rpx;
+  height: 100rpx;
+  background-color: white;
+  text-align: center;
+}
+.end-contianer-right{
+   width: 375rpx;
+  height: 100rpx;
+  background-color: red;
+  text-align: center;
+}
+ .cannel{
+  font-size: 40rpx;
+  line-height: 100rpx;
+  }
+ .save{
+  color: white;
+  font-size: 40rpx;
+  line-height: 100rpx;
+  }
+  .goods-img{
+    margin-top: 20rpx;
+    width: 100%;
+  }
+  .goods{
+    margin-left: 200rpx;
+    width: 50%;
+    height: 300rpx;
+  }
+  .goods-img-text{
+    font-size: 30rpx;
+  }
+  .img{
+    display: flex;
+    flex-direction: row;
+  }

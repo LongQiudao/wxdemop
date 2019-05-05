@@ -1,0 +1,92 @@
+.contianer{
+  display: flex;
+  flex-direction: column;
+}
+.top-contianer{
+  background-color: red;
+  height: 200rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.top-text{
+  margin-top: 40rpx;
+  margin-left: 20rpx;
+  color: white;
+  font-size: 36rpx;
+  }
+  .price-contianer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20rpx;
+    margin-left: 20rpx;
+  }
+.price-title{
+  font-size: 36rpx;
+}
+.price-content{
+  font-size: 36rpx;
+  color: red;
+  margin-left: 300rpx;
+}
+.lishi-contianer{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+}
+.lishi-content-contianer{
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+.lishi-title{
+  font-size: 36rpx;
+}
+.lishi-content-texxt{
+  font-size: 30rpx;
+  color: #999;
+}
+.msg-contianer{
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+.msg-title{
+  font-size: 36rpx;
+}
+.msg-goods{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20rpx;
+}
+.msg-goods-img{
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.msg-goods-text{
+  font-size: 32rpx;
+  color: #999;
+  margin-top: 30rpx;
+  margin-left: 20rpx;
+}
+.msg-content{
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+}
+.msg-content-left{
+  width: 200rpx;
+}
+.msg-content-right{
+  margin-left: 20rpx;
+  width: 300rpx;
+}
+.msg-content-text{
+  font-size: 30rpx;
+  color: #999;
+  
+}

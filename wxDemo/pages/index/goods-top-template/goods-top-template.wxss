@@ -1,0 +1,17 @@
+.goods-image{
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  margin-right: 20rpx;
+  display: flex;
+  flex-direction: column;
+  width: 250rpx;
+  margin-bottom: 20rpx;
+}
+.gooods-image-img{
+  width: 250rpx;
+}
+.goods-content{
+  font-size: 30rpx;
+  color:#999;
+  margin-top: 10rpx;
+}

@@ -1,0 +1,154 @@
+@import "../index/goods-left-template/goods-left-template";
+
+page{
+  background-color:whitesmoke;
+}
+.contianer{
+  display: flex;
+  flex-direction: column;
+}
+.top-contianer{
+  margin-top: 20rpx;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  width: 660rpx;
+  height: 300rpx;
+  background-color: gray;
+  margin-left: 50rpx;
+}
+.user{
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: row;
+}
+.user-img{
+  width: 100rpx;
+  height: 100rpx;
+}
+.user-name{
+  margin-top: 40rpx;
+  margin-left: 20rpx;
+  font-size: 40rpx;
+  color: white;
+}
+.message{
+  display: flex;
+  flex-direction: row;
+}
+.message-detail{
+  margin-top: 80rpx;
+  margin-left: 70rpx;
+  display: flex;
+  flex-direction: column;
+}
+.message-detail-text{
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 26rpx;
+  color: white;
+}
+.message-detail-num{
+  margin-top: 10rpx;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 32rpx;
+  color: white;
+}
+.edit-image{
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  top: 50rpx;
+  right: 80rpx;
+}
+.divLine{
+ background: #E0E3DA;
+ width: 100%;
+ height: 5rpx;
+}
+.my-order{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+.my-order-text{
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  font-size: 32rpx;
+}
+.my-order-more{
+  margin-left: 470rpx;
+  margin-top: 20rpx;
+  margin-bottom: 10rpx;
+  font-size: 24rpx;
+  color: blue;
+}
+.my-order-image{
+  margin-left: 10rpx;
+  margin-top: 25rpx;
+  margin-bottom: 10rpx;
+  height: 24rpx;
+  width: 24rpx;
+}
+.menu-contianer{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+.menu{
+  margin-bottom: 20rpx;
+  margin-left: 40rpx;
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+.menu-img{
+  width: 100rpx;
+  height: 100rpx;
+}
+.menu-text{
+  font-size: 32rpx;
+  color: #999;
+}
+.huodong-contianer{
+  height: 300rpx;
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+.huodong{
+  margin-top: 20rpx;
+  margin-left: 40rpx;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20rpx;
+}
+.houdong-image{
+  width: 200rpx;
+  height: 200rpx;
+}
+.huodong-name{
+  font-size: 32rpx;
+  margin-left: auto;
+  margin-right: auto;
+}
+.huodong-num{
+  font-size: 26rpx;
+  margin-left: auto;
+  margin-right: auto;
+  color: #999;
+}
+.lishi-contianer{
+  display: flex;
+  flex-direction: row;
+}
+.lishi-title{
+  margin-top: 20rpx;
+  margin-left: 300rpx;
+  font-size: 30rpx;
+  font-weight: 800;
+}

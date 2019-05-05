@@ -1,0 +1,23 @@
+<view  class='contianer'>
+  <view class='content' catchtap='onAdress'>
+    <view class='content-left'>
+      <text class='content-text'>收获地址</text>
+    </view>
+    <image class='img' src='/images/icon/arrow-right.png'></image>
+    </view>
+    <view class='content' catchtap='onAbout'>
+    <view class='content-left'>
+      <text class='content-text'>关于我们</text>
+    </view>
+    <image class='img' src='/images/icon/arrow-right.png'></image>
+    </view>
+    <view class='content' catchtap='onMethod'> 
+    <view class='content-left'>
+      <text class='content-text'>交易纠纷管理办法</text>
+    </view>
+    <image class='img' src='/images/icon/arrow-right.png'></image>
+    </view>
+    <button class='fankui' open-type="contact">
+      <text class='content-text'>意见反馈</text>
+    </button>
+</view>

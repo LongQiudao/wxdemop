@@ -1,0 +1,113 @@
+@import "order-title-template/order-title-template";
+@import "order-content-template/order-content-template";
+@import "../index/goods-left-template/goods-left-template";
+page{
+  background-color: #EBF5F5;
+}
+.contianer{
+  display: flex;
+  flex-direction: column;
+}
+.jiesuan-contianer{
+  background-color: white; 
+  display: flex;
+  flex-direction: row;
+  height: 100rpx;
+  position:fixed; 
+  width: 100%;
+  bottom:0rpx; 
+}
+.jiesuan-contianer-check{
+  margin-left: 20rpx;
+  line-height: 100rpx;
+}
+.jiesuan-contianer-quanxuan{
+  margin-left: 20rpx;
+  font-size: 30rpx;
+  line-height: 100rpx;
+}
+.jiesuan-contianer-heji{
+  margin-left: 200rpx;
+  font-size: 40rpx;
+  line-height: 100rpx;
+}
+.jiesuan-contianer-zongjia{
+  margin-left: 10rpx;
+  font-size: 40rpx;
+  color: red;
+  line-height: 100rpx;
+}
+.jiesuan-contianer-jiesuan{
+  margin-left: 30rpx;
+  background-color: orangered;
+  height: 100%;
+  border-radius: 0.8rem;
+  text-align: center;
+  width: 160rpx;
+}
+.jiesuan-contianer-jiesuan-text{
+  font-size: 36rpx;
+  line-height: 100rpx;
+} 
+.divLine{
+ background: #E0E3DA;
+ width: 100%;
+ height: 5rpx;
+}
+.lishi-contianer{
+  display: flex;
+  flex-direction: row;
+}
+.lishi-title{
+  margin-top: 20rpx;
+  margin-left: 300rpx;
+  font-size: 30rpx;
+  font-weight: 800;
+}
+.touch-item { 
+  display: flex; 
+  justify-content: space-between; 
+  width: 100%; 
+  overflow: hidden;  
+  box-sizing: border-box;
+  margin: 0 0 6rpx 0;
+  background: #ffffff;
+  }
+.content { 
+  height: 200rpx;
+  width: 100%; 
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  -webkit-transform: translateX(220rpx);
+  transform: translateX(220rpx); 
+  background: #ffffff;
+  margin-left:-220rpx;
+  padding: 10rpx;
+  font-size: 50rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+.touch-move-active .content,.touch-move-active .dele { 
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  }
+.dele {
+  background-color: #4479b2; 
+  width: 220rpx; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  color: #fff;
+  -webkit-transform: translateX(440rpx);
+  transform: translateX(440rpx);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.feed-item{
+  width: 750rpx;
+  padding: 30rpx 30rpx 10rpx 30rpx;
+  margin: 8rpx 0 6rpx 0;
+  background: #ffffff;
+}

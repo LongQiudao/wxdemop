@@ -1,0 +1,25 @@
+.manager-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80rpx;
+  background-color:aliceblue;
+}
+.manager-check{
+  margin-left: 20rpx;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+.manager-text{
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  font-size: 32rpx;
+  font-weight: 600;
+}
+.manager-edit{
+  font-size: 26rpx;
+  margin-left: 500rpx;
+  margin-top: 30rpx;
+  color: blue;
+}

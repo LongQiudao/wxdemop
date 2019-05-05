@@ -1,0 +1,8 @@
+<template name="rightTemplate">
+  <view class='goods-right-contianer' catchtap='onDetail' data-id="{{id}}" >
+    <image class='goods-right-img' src='{{image}}'></image>
+    <text class='goods-right-content'>{{content}}</text>
+    <text class='goods-right-price'>￥{{price}}</text>
+    <text class='goods-right-same'>找相似</text>
+  </view>
+</template>

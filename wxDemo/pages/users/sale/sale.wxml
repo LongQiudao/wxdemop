@@ -1,0 +1,40 @@
+<view class='contianer'>
+  <view class='address-name'>
+    <text class='address-name-text'>姓名：</text>
+    <input placeholder="请输入您的姓名" placeholder-class="placeholder"></input>
+  </view>
+   <view class='address-name'>
+    <text class='address-name-text'>手机号码：</text>
+    <input placeholder="请输入您的手机号码" placeholder-class="placeholder"></input>
+  </view>
+  <view class='address-name'>
+    <text class='address-name-text'>物品名称：</text>
+    <input placeholder="请输入物品名称" placeholder-class="placeholder"></input>
+  </view>
+  <view class='address-name'>
+    <text class='address-name-text'>物品类型：</text>
+    <input placeholder="包、手表、鞋" placeholder-class="placeholder"></input>
+  </view>
+  <view class='address-name'>
+    <text class='address-name-text'>交易方式：</text>
+    <input placeholder="当面交易、线上协商" placeholder-class="placeholder"></input>
+  </view>
+  <view class='address-name'>
+    <text class='address-name-text'>物品报价：</text>
+    <input placeholder="物品报价" placeholder-class="placeholder"></input>
+  </view>
+  <button class="goods-img" catchtap='onFileUpload'>
+    <text class='goods-img-text'>上传物品图片</text>
+  </button>
+  <view class='img'>
+     <image class='goods' src='{{img}}'></image>
+  </view>
+  <view class='end-contianer'>
+    <view class='end-contianer-left'>
+      <text class='cannel'>取消</text>
+    </view>
+    <view class='end-contianer-right'>
+      <text class='save'>提交</text>
+    </view>
+  </view>
+</view>

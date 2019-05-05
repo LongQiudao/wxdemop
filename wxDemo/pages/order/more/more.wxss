@@ -1,0 +1,64 @@
+@import "../../index/goods-left-template/goods-left-template";
+page{
+  background-color: gainsboro;
+}
+.contianer{
+  display: flex;
+  flex-direction: column;
+}
+.sreach{
+    margin-top: 20rpx;
+    background-color: #f2f2f2;
+    height: 80rpx;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0.8rem;
+}
+.search-img{
+    margin: auto 0 auto 200rpx;
+}
+.placeholder{
+    font-size: 14px;
+    color: #d1d1d1d1;
+    margin-left: 10rpx;
+   
+}
+.sreach input{
+    height: 100%;
+    width: 600rpx;
+    margin-left: 40rpx;
+    font-size: 28rpx;
+}
+.search-panel{
+    position: absolute;
+    top: 80rpx;
+}
+.lishi-contianer{
+  display: flex;
+  flex-direction: row;
+}
+.lishi-title{
+  margin-top: 20rpx;
+  margin-left: 300rpx;
+  font-size: 30rpx;
+  font-weight: 800;
+}
+.index-contianer{
+  display: flex;
+  flex-direction: row;
+}
+.index-item{
+  margin-top: 20rpx;
+  margin-left: 25rpx;
+  background-color: orange;
+  width: 120rpx;
+  height: 60rpx;
+  border-radius: 0.8rem;
+  text-align: center;
+}
+.index-item-content{
+  font-size: 30rpx;
+  color: white;
+  line-height: 60rpx;
+}

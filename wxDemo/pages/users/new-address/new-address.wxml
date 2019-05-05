@@ -1,0 +1,26 @@
+<view class='contianer'>
+  <view class='address-name'>
+    <text class='address-name-text'>收货人：</text>
+    <input placeholder="请输入收货人姓名" placeholder-class="placeholder"></input>
+  </view>
+   <view class='address-name'>
+    <text class='address-name-text'>手机号码：</text>
+    <input placeholder="请输入收货人手机号码" placeholder-class="placeholder"></input>
+  </view>
+  <view class='address-name'>
+    <text class='address-name-text'>收货地址：</text>
+    <input placeholder="请输入正确的收获地址" placeholder-class="placeholder"></input>
+  </view>
+  <view class='address-name'>
+    <text class='address-name-text'>付款方式：</text>
+    <input placeholder="在线支付、货到付款" placeholder-class="placeholder"></input>
+  </view>
+  <view class='end-contianer'>
+    <view class='end-contianer-left'>
+      <text class='cannel'>取消</text>
+    </view>
+    <view class='end-contianer-right'>
+      <text class='save'>保存</text>
+    </view>
+  </view>
+</view>

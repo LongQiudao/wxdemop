@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/order/order",
+    "pages/users/user",
+    "pages/index/goods-detail/goods-detail",
+    "pages/users/setUp/setUp",
+    "pages/users/address/address",
+    "pages/users/new-address/new-address",
+    "pages/users/view/view",
+    "pages/users/collect/collect",
+    "pages/users/order/order",
+    "pages/users/about/about",
+    "pages/users/method/method",
+    "pages/users/refund/refund",
+    "pages/users/sale/sale",
+    "pages/users/maintenance/maintenance",
+    "pages/index/kaquan/kaquan",
+    "pages/order/account/account",
+    "pages/order/more/more",
+    "pages/users/edit-address/edit-address",
+    "pages/users/new-refound/new-refound",
+    "pages/users/new-evaluate/new-evaluate",
+    "pages/users/refund-detail/refund-detail"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/tab/aaaa-non.jpg",
+        "selectedIconPath": "/images/tab/aaaa.jpg"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "购物车",
+        "iconPath": "/images/tab/cccc-non.jpg",
+        "selectedIconPath": "/images/tab/cccc.jpg"
+      },
+      {
+        "pagePath": "pages/users/user",
+        "text": "我的",
+        "iconPath": "/images/tab/bbbb-non.jpg",
+        "selectedIconPath": "/images/tab/bbbb.jpg"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,13 @@
+<template name="starTemplate">
+    <view class="star-container">
+        <view class="star">
+               <block wx:for="{{stars}}" wx:for-item="i">
+                <view catchtap='onStar' data-index='{{index}}'>
+                <image wx:if="{{i}}" src="/images/icon/star.png"/>
+                <image wx:else src="/images/icon/none-star.png"/>
+                </view>
+            </block>
+        </view>
+        <text class="star-core">{{score}}</text>
+    </view>
+</template>

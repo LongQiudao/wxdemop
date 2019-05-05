@@ -1,0 +1,26 @@
+<view class='contianer'>
+  <view class='address-name'>
+    <text class='address-name-text'>交易单号：</text>
+    <input placeholder="请输入交易单号" placeholder-class="placeholder"></input>
+  </view>
+   <view class='address-name'>
+    <text class='address-name-text'>联系方式：</text>
+    <input placeholder="请输入您的联系方式" placeholder-class="placeholder"></input>
+  </view>
+  <view class='address-name'>
+    <text class='address-name-text'>退款原因：</text>
+    <input placeholder="请说明退款原因" placeholder-class="placeholder"></input>
+  </view>
+  <view class='address-name'>
+    <text class='address-name-text'>商品名称：</text>
+    <input placeholder="请输入商品名称" placeholder-class="placeholder"></input>
+  </view>
+  <view class='end-contianer'>
+    <view class='end-contianer-left'>
+      <text class='cannel'>取消</text>
+    </view>
+    <view class='end-contianer-right'>
+      <text class='save'>提交</text>
+    </view>
+  </view>
+</view>

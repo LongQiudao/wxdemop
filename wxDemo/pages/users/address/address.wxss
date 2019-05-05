@@ -1,0 +1,71 @@
+page{
+  background-color: azure;
+}
+.contianer{
+  display: flex;
+  flex-direction: column;
+}
+.content{
+  margin-top: 10rpx;
+  display: flex;
+  flex-direction: row;
+  height: 80rpx;
+  background-color: white;
+  }
+.img{
+  margin-top: 27rpx;
+  width: 30rpx;
+  height: 30rpx;
+  margin-left: 300rpx;
+}  
+.content-text{
+  line-height: 80rpx;
+  font-size: 32rpx;
+  margin-left: 20rpx;
+}
+.content-left{
+  width: 400rpx;
+}
+.address{
+  margin-top: 20rpx;
+  height: 150rpx;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.address-top{
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+}
+.address-top-user{
+  margin-left: 20rpx;
+  font-size: 30rpx;
+}
+.address-top-phone{
+  margin-left: 200rpx;
+  font-size: 40rpx;
+}
+.address-end{
+  margin-left: 20rpx;
+  color: #999;
+  font-size: 26rpx;
+}
+.address-end-contianer{
+  display: flex;
+  flex-direction: row;
+}
+.address-end-edit{
+  width: 100rpx;
+  height: 60rpx;
+  background-color: orange;
+  border-radius: 0.8rem;
+  margin-left: 300rpx;
+  margin-top: 10rpx;
+  text-align: center;
+}
+.address-end-edit-text{
+  font-size: 24rpx;
+  color: white;
+  line-height: 30rpx;
+}

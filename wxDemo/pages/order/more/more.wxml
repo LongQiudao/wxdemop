@@ -1,0 +1,47 @@
+<import src="../../index/goods-left-template/goods-left-template"/>
+<view class='contianer'>
+  <view class="sreach">
+          <icon type="search" class="search-img" size="13" color="#405f80"></icon>
+          <input type="text" placeholder="寻找商品" placeholder-class="placeholder"
+          bindfocus="onBindfocus" bindchange="onBindChange"/>
+          <image wx:if="{{searchPanelShow}}" class="cannel-img" src="/images/icon/xx.png" bindtap="onCannelImgTap"/>
+  </view>
+  <view class='index-contianer'>
+    <view class='index-item'>
+      <text class='index-item-content'>包</text>
+    </view>
+
+    <view class='index-item'>
+      <text class='index-item-content'>鞋子</text>
+    </view>
+
+    <view class='index-item'>
+      <text class='index-item-content'>手表</text>
+    </view>
+
+     <view class='index-item'>
+      <text class='index-item-content'>项链</text>
+    </view>
+
+    <view class='index-item'>
+      <text class='index-item-content'>耳环</text>
+    </view>
+
+  </view>
+
+
+  <view class="lishi-contianer">
+    <view class='lishi-content'>
+      <block wx:for="{{leftImg}}">
+          <template is="leftTemplate" data="{{...item}}"/> 
+      </block>
+    </view>
+    <view class='lishi-content'>
+      <block wx:for="{{rightImg}}">
+          <template is="leftTemplate" data="{{...item}}"/> 
+      </block>
+    </view>
+  </view>
+
+
+</view>

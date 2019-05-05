@@ -1,0 +1,53 @@
+<view class='contianer'>
+  <view class='top-contianer'>
+    <text class='top-text'>退款成功</text>
+    <text class='top-text'>2019-4-29  10:45:59</text>
+  </view>
+  <view class='price-contianer'>
+    <text class='price-title'>退款金额：</text>
+    <text class='price-content'>￥998.00</text>
+  </view>
+  <view class='lishi-contianer'>
+    <text class='lishi-title'>协商历史</text>
+    <view class='lishi-content-contianer'>
+      <text class='lishi-content-texxt'>买家：同意</text>
+      <text class='lishi-content-texxt'>卖家：同意</text>
+      <text class='lishi-content-texxt'>协商时间：2019-4-18</text>
+    </view>
+  </view>
+  <view class='msg-contianer'>
+    <text class='msg-title'>退款信息</text>
+    <view class='msg-goods'>
+      <image class='msg-goods-img' mode='aspectFit' src='/images/post/1.jpg'></image>
+      <text class='msg-goods-text'>此处应为商品名称</text>
+    </view>
+    <view class='msg-content'>
+      <view class='msg-content-left'>
+        <text class='msg-content-text'>退款原因：</text>
+      </view>
+      <view class='msg-content-right'>
+        <text class='msg-content-text'>错买/多买</text>
+      </view>
+    </view>
+
+    <view class='msg-content'>
+      <view class='msg-content-left'>
+        <text class='msg-content-text'>退款金额：</text>
+      </view>
+      <view class='msg-content-right'>
+        <text class='msg-content-text'>￥998.00</text>
+      </view>
+    </view>
+
+    <view class='msg-content'>
+      <view class='msg-content-left'>
+        <text class='msg-content-text'>退款单号：</text>
+      </view>
+      <view class='msg-content-right'>
+        <text class='msg-content-text'>AE-86</text>
+      </view>
+    </view>
+
+
+  </view>
+</view>
